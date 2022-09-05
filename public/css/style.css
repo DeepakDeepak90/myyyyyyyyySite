@@ -1,0 +1,474 @@
+body{
+    background-color:rgb(215, 226, 205);
+}
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+#kuku::before{
+    
+        background: url(none);
+        background-color: rgb(212, 219, 219);
+        height: 580px;
+}
+ #konk::before{
+    position: absolute;
+    content: "";
+    background: red;
+    background-color: rgb(240, 234, 234) ;
+    width: 100%;
+    height: 580px;
+
+} 
+.navbar-brand{
+    color: rgb(59, 56, 56);
+}
+.logo-top{
+    width: 40px;
+    margin-right: 20px;
+    filter: brightness(0) invert(1);
+}
+/* .navbaar{
+    background-color: rgb(8, 8, 8);
+    display: flex;
+    border-radius: 10px;
+} */
+/* ul{
+    display: flex;
+} */
+ /* li{
+    padding: 12px 70px;
+    list-style: none;
+}  */
+ .nav-link{
+    text-decoration: none;
+    
+    /* font-weight: bold; */
+    /* font-size: 18px;  */
+ 
+}
+/* .hov:hover{
+   color: rgb(194, 190, 190);
+   background-color: rgb(53, 52, 52);
+   padding: 2px 6px;
+   border-radius: 6px;
+}  */
+.pera{
+    width:800px;
+    display: block;
+    margin: 100px auto;
+    position: relative;
+}
+.up{
+    text-align: center;
+    padding-bottom:30px;
+    color: rgb(15, 15, 15);
+    font-size: 40px;
+}
+.jup{
+ font-weight: bold;
+ color: rgb(61, 60, 60);
+}
+.container-fluid::before{
+    position: absolute;
+    content: "";
+    background: url("../images/804827.jpg") no-repeat center center/cover;
+    height: 455px;
+    width: 100%;
+    z-index: -1;
+    margin-top: 45px;
+    top: 0px;
+    right: 0;
+    
+}
+
+ .cardio{
+    display: flex;
+    margin-top: 150px;
+    justify-content: center;
+ } 
+ .cardd{ 
+    width: 30%;
+    border: 2px solid rgb(165, 161, 161);
+    border-radius: 17px;
+    margin: 20px 20px;
+    padding: 10px;
+    background-color: rgb(165, 161, 161);
+} 
+img{
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.cardt{
+    text-align: center;
+}
+.comp{
+    display: flex;
+    justify-content: center;
+    width: 700px;
+    margin-left: 300px;
+}
+.compnies{
+    padding-top: 20px;
+    font-size: 40px;
+    text-align: center;
+}
+.logo{
+    width: 80px;
+    margin: 20px auto;
+    padding: 8px;
+
+}
+.ll::before{
+    position: absolute;
+    content: "";
+    background: url("../images/set.jpg") no-repeat center center/cover;
+    height: 204px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.nav{
+    background-color: black;
+}
+.gpp{
+    width: 300px;
+}
+.abo{
+    width: 60%;
+    padding-left: 70px;
+}
+.ab{
+    display: flex;
+}
+.abb{
+    text-align: center;
+    margin-top: 57px;
+    padding: 48px;
+    font-size: 45px;
+
+}
+.navv{
+    background-color: black;
+}
+.navv::before{
+    position: absolute;
+    content: "";
+    background: url("../images/conn.jpg") no-repeat center center/cover;
+    height: 625px;
+    width: 100%;
+    z-index: -1;
+}
+.logos{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding-top: 1px;
+}
+.contu{
+    /* border: 1px solid rgb(95, 91, 91) ; */
+    color: rgb(8, 8, 4);
+    font-size: 30px;
+    width: 678px;
+    margin: 10px;
+}
+.lgo{
+    width: 66px;
+    margin-left: 50px;
+    display:inline;
+}
+.sign{
+    padding-left: 200px;
+    display: flex;
+}
+.sig{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    margin: 114px 460px;
+}
+.btn{
+    width: 84px;
+    padding: 8px;
+    border: none;
+    border-radius: 7px;
+    margin: 5px auto;
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    font-weight:normal;
+    font-size: 17px;
+    display: flex;  
+}
+.butt{
+    display: flex;
+}
+input{
+    margin: 8px;
+    padding: 10px 18px;
+    border-radius: 8px;
+    border: none;
+}
+.bb{
+        display: flex;
+        flex-direction: column;
+        width: 27%;
+        margin: 193px 470px;
+    }
+#ko{
+border: 1px solid white;
+color: black;
+background-color: white;
+text-decoration: none;
+padding-left:15px ;
+}
+#koo{
+    border: 1px solid white;
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    padding-left:25px;
+}
+
+.errr {
+    margin: 146px;
+    width:50%; 
+    display:inline;
+    
+}
+   
+    #koo:hover,#ko:hover{
+        color: azure;
+        background-color: rgb(105, 105, 104);
+    }
+.burger{
+position: absolute;
+cursor: pointer;
+right: 5%;
+display: none;
+}
+
+.line {
+    width: 20px;
+    background-color: white;
+    height: 3px;
+    margin: 3px -1px;
+    padding: 1px;
+}
+.rightnav{
+    
+    padding-top: 14px;
+
+}
+.contaact-info{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    margin-left: auto;
+}
+.contact-mar{
+    margin: 18px;
+}
+
+@media only screen and (max-width:1000px) {
+    footer{
+        /* display: none; */
+    }
+    i {
+        padding: 12px 49px;
+        list-style: none;
+    }
+    .burger{
+        display: block;
+    }
+
+    .compnies {
+        padding-top: 20px;
+        font-size: 40px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .butt {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .comp {
+        display: flex;
+        justify-content: center;
+        width: auto;
+        margin: auto;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .contaact-info{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        margin:auto;
+    }  
+    .pera {
+        width: auto;
+        display: block;
+        margin: 0px auto;
+        position: relative;
+        padding: 0px 35px;
+        flex-wrap: wrap;
+        height: 461px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+     .cardd {
+        width: 52%;
+        /* border: 2px solid red; */
+         border-radius: 17px; 
+        margin: 5px auto;
+        padding: 10px;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    } 
+     .cardio {
+        display: flex;
+        margin-top: 0px;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }   
+    .ll::before {
+        position: absolute;
+        content: "";
+        background: url("../images/set.jpg") no-repeat center center/cover;
+        height: 45;
+        width: 100%;
+        z-index: -1;
+    }
+    .abb {
+        text-align: center;
+        padding: 14px;
+        font-size: 45px;
+    }
+    .gpp {
+        width: 186px;
+    }
+    .contu {
+        /* border: 1px solid rgb(95, 91, 91); */
+        color: black;
+        font-size: 20px;
+        width: auto;
+        margin: 10px;
+    }
+    
+    .lgo {
+        width: 36px;
+        margin-left: 50px;
+        display: inline;
+    }
+    .contu {
+        border: 1px solid rgb(95, 91, 91);
+        color: rgb(138, 165, 19);
+        font-size: 20px;
+        width: auto;
+        margin: 14px 3px;
+        height: 55px;
+    }
+    .sign{
+        padding-left:30px;
+    }
+    #ko {
+        border: 1px solid white;
+        color: black;
+        background-color: white;
+        text-decoration: none;
+        padding: 6px 8px;
+    }
+    .sig {
+        display: flex;
+        flex-direction: column;
+        width: 247px;
+        margin: 100px auto;
+    }
+    .bb{
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+        margin: 193px auto;
+    }
+    #kuku::before{
+    
+        background: url(none);
+        /* background-color: aqua; */
+        height: 620px;
+    }
+}
+@media only screen and   (max-width:412px) {
+footer{
+    /* display: none; */
+}
+.butt {
+    display: flex;
+    flex-wrap: wrap;
+}
+li {
+    padding: 15px 27px;
+    list-style: none;
+}
+.navbaar::before {
+    position: absolute;
+    content: "";
+    background: url(../images/1078022.jpg) no-repeat center center/cover;
+    height: 585px;
+    width: 100%;
+    z-index: -1;
+}
+.ll::before {
+    position: absolute;
+    content: "";
+    background: url("../images/set.jpg") no-repeat center center/cover;
+    height: 146%;
+    width: 100%;
+    z-index: -1;
+}
+.pera {
+    width: auto;
+    display: block;
+    margin: 0px auto;
+    position: relative;
+    padding: 0px 35px;
+    flex-wrap: wrap;
+    height: 510px;
+}
+.ll::before {
+    position: absolute;
+    content: "";
+    background: url(../images/k\ \(1\).jpeg) no-repeat center center/cover;
+    height: 38%;
+    width: 100%;
+    z-index: -1;
+}
+.bulla{
+    margin: 3px auto;
+    
+}
+}
+    @media only screen and (max-width: 1000px){
+    .ll::before {
+        position: absolute;
+        content: "";
+        background: url("../images/set.jpg") no-repeat center center/cover;
+        height: 252px;
+        width: 100%;
+        z-index: -1;
+    }
+}
