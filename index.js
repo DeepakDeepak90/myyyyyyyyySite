@@ -18,28 +18,12 @@ async function main() {
 }
 // Mongoose Schema
 const deepakSchema = new mongoose.Schema({
-    name: {
-    type:String,
-    // required:true,
-    },
-    email: {
-        type:String,
-        // required:true,
-        // unique:true,
-        },
-        number: {
-            type:Number,
-            // required:true,
-            // unique:true,
-            minlength:10,
-            maxlength:10,
-            },
-            password: {
-                type:String,
-                // required:true,
-                },
-                confpassword:Number,
-  });
+    name:String,
+    email:String,
+    number:Number,
+    password:String,
+    confpassword:String,
+});
   const Deepak=new mongoose.model("Deepak",deepakSchema);
 const staticpath=path.join(__dirname,"/public");
 app.use(express.static(staticpath))
